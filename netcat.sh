@@ -2,7 +2,7 @@
 
 PORT="9000"
 HELLOWORLD="hello world"
-RESPONSE="HTTP/1.1 200 OK\r\nConnection: keep-alive\r\n\r\n$HELLOWORLD\r\n"
+RESPONSE="HTTP/1.1 200 OK\r\n\r\n$HELLOWORLD\r\n"
 
 echo "server is running on \"http://localhost:$PORT/\""
 
